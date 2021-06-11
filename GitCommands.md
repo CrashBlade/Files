@@ -1,60 +1,60 @@
 ## Create a new repository on the command line
 
-git init
+* git init
 
-git add README.md
+* git add README.md
 
-git commit -m "first commit"
+* git commit -m "first commit"
 
-git branch -M main
+* git branch -M main
 
-git remote add origin https://github.com/CrashBlade/Xxxxxxxxxxx.git
+* git remote add origin https://github.com/CrashBlade/Xxxxxxxxxxx.git
 
-git push -u origin main
+* git push -u origin main
 
 
 
 ## Push an existing repository from the command line
 
-git remote add origin https://github.com/CrashBlade/Xxxxxxxxxxxxx.git
+* git remote add origin https://github.com/CrashBlade/Xxxxxxxxxxxxx.git
 
 ========================
 
-git branch -M main
+* git branch -M main
 
-git push -u origin main
+* git push -u origin main
 
 ========================
 
-git push -u origin master
+* git push -u origin master
 
 ========================
 
 ## Configuration Commands
 
-$ git pwd (path del area de trabajo)
+* git pwd (path del area de trabajo)
 
-$ git config --global user.name "Xxxxxx" (Asigna nombre del usuario)
+* git config --global user.name "Xxxxxx" (Asigna nombre del usuario)
 
-$ git config --global user.email "Xxxxxx" (Asigna el email del usuario)
+* git config --global user.email "Xxxxxx" (Asigna el email del usuario)
 
-$ git config --global user.name (Muestra nombre del usuario)
+* git config --global user.name (Muestra nombre del usuario)
 
-$ git config --global user.email (Muestra el email del usuario)
+* git config --global user.email (Muestra el email del usuario)
 
-$ git config --list --show-origin (Muestra origenes de los archivos de configuarcion)
+* git config --list --show-origin (Muestra origenes de los archivos de configuarcion)
 
-$ ls -al (muestra archivos de la ruta donde apunta el Bash)
+* ls -al (muestra archivos de la ruta donde apunta el Bash)
 
-git config core.autocrlf true (Posible error/warning)
+* git config core.autocrlf true (Posible error/warning)
 
 ## Status Commands
 
-git status
+* git status
 
-git status -s (version simple del estatus)
+* git status -s (version simple del estatus)
 
-git status -s -b (version simple del status y la branch)
+* git status -s -b (version simple del status y la branch)
 
 ## Adding Commands
 
